@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    background: #161616;
+}
+
+.container {
+    width: 450px;
+}
+
+.card {
+    border-radius: 5px;
+}
+
+.card-header {
+    margin-bottom: 10px;
+    border: none;
+}
+
+.card-header .div {
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 25px rgba(0, 0, 12, 0.3);
+}
+
+.div i {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.div .h {
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.card-body {
+    width: 100%;
+    background: #777;
+    color: white;
+    padding: 20px 5px;
+    border-radius: 2px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 270px;
+}
+
+.para {
+    font-size: 15px;
+    text-align: center;
+    padding: 0 5px;
+}
+
+.btn {
+    padding: 5px 20px;
+    border: none;
+    outline: none;
+    background: #161616;
+}
+
+.card-footer {
+    margin-top: 10px;
+    border: none;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 25px rgba(0, 0, 12, 0.3);
+}
+
+.icon i {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.icon:hover,
+.div:hover {
+    background: #777;
+    cursor: pointer;
+    color: white;
+    transition: .3s ease;
+}
+
+.icon:hover {
+    transform: translateY(-5px);
+    transition: .3s ease;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 100%;
+    }
+}
